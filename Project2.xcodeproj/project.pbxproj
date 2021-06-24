@@ -13,8 +13,6 @@
 		DBBFD0F826782835001D6004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD0F626782835001D6004 /* Main.storyboard */; };
 		DBBFD0FA26782837001D6004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD0F926782837001D6004 /* Assets.xcassets */; };
 		DBBFD0FD26782837001D6004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD0FB26782837001D6004 /* LaunchScreen.storyboard */; };
-		DBBFD10826782837001D6004 /* Project2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFD10726782837001D6004 /* Project2Tests.swift */; };
-		DBBFD11326782837001D6004 /* Project2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFD11226782837001D6004 /* Project2UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		DBBFD0FC26782837001D6004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBFD0FE26782837001D6004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBFD10326782837001D6004 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBBFD10726782837001D6004 /* Project2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Tests.swift; sourceTree = "<group>"; };
-		DBBFD10926782837001D6004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBFD10E26782837001D6004 /* Project2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBBFD11226782837001D6004 /* Project2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2UITests.swift; sourceTree = "<group>"; };
-		DBBFD11426782837001D6004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				DBBFD0EF26782835001D6004 /* Project2 */,
-				DBBFD10626782837001D6004 /* Project2Tests */,
-				DBBFD11126782837001D6004 /* Project2UITests */,
 				DBBFD0EE26782835001D6004 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				DBBFD0FE26782837001D6004 /* Info.plist */,
 			);
 			path = Project2;
-			sourceTree = "<group>";
-		};
-		DBBFD10626782837001D6004 /* Project2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DBBFD10726782837001D6004 /* Project2Tests.swift */,
-				DBBFD10926782837001D6004 /* Info.plist */,
-			);
-			path = Project2Tests;
-			sourceTree = "<group>";
-		};
-		DBBFD11126782837001D6004 /* Project2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				DBBFD11226782837001D6004 /* Project2UITests.swift */,
-				DBBFD11426782837001D6004 /* Info.plist */,
-			);
-			path = Project2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBFD10826782837001D6004 /* Project2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBFD11326782837001D6004 /* Project2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
